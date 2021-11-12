@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <a href="index.html">Home</a><br />
+        <h1>Contact Form</h1>
+        <form action="mailto:info@mycompany.com?subject=RE: Contact Form&body=Message details:   " method="post" enctype="text/plain">
+            <input type="text" name="name" id="name-field" class="contact-form" value="" placeholder="Name..." /><br />
+            <input type="email" name="email" id="email-field" class="contact-form" value="" placeholder="Email..." /><br />
+            <label>Your message:</label><br />
+            <textarea name="message" rows="10" cols="30"></textarea><br />
+            <input type="submit" name="submit" id="form-submit" />
+        </form>
+    </body>
+</html>
